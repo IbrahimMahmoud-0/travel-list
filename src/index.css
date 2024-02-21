@@ -85,6 +85,7 @@ form h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 ul {
   width: 90%;
@@ -109,6 +110,23 @@ ul li button {
   font-weight: bold;
   font-size: 1.4rem;
 }
+.actions {
+  display: flex;
+  gap: 2rem;
+}
+
+.actions select,
+.actions button {
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  border-radius: 2.4rem;
+  text-transform: uppercase;
+  border: none;
+}
+.actions button {
+  cursor: pointer;
+}
+
 /* ------------------------ */
 
 .stats {
