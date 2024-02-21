@@ -75,8 +75,6 @@ form button {
 form h3 {
   font-size: 1.4rem;
 }
-.packing-list {
-}
 
 .list {
   width: 100%;
@@ -100,6 +98,9 @@ ul li {
 }
 ul li .packed {
   text-decoration: line-through;
+}
+ul li input {
+  margin-right: 1rem;
 }
 ul li button {
   margin-left: 1rem;
